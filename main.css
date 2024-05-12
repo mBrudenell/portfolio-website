@@ -2,15 +2,18 @@ body{
     background-color:#F8F8F8!important;
 }
 
-#profile-wrapper{
-    text-align: left;
-    min-height: 456px;
-}
-
-#profile-pic{
+/* #profile-pic{
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+#profile-pic{
+    width: 85%;
+    height: auto;
+    border-radius: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -22,7 +25,7 @@ body{
 
 .project-icon {
     height: 200px;
-    transition: transform 0.2s ease;
+    transition: transform 0.1s ease;
     margin-right: 10px;
 }
 
@@ -56,7 +59,7 @@ ul {
     margin-right: 5px;
     width: 30px;
     height: 30px;
-    transition: transform 0.2s ease;
+    transition: transform 0.1s ease;
 }
 
 .social:hover {
@@ -100,4 +103,33 @@ p.indented {
     padding-left: 15px;
     text-align: justify;
 
+}
+
+/* #profile-wrapper {
+    position: relative;
+    background: url('images/cover_pic.jpg') no-repeat;
+    background-size: 100% 50%;
+    background-position: top;
+    text-align: left;
+    height: 456px;
+} */
+
+#profile-wrapper {
+    position: relative;
+    background: url('images/cover_pic.jpg') no-repeat;
+    background-size: 100% 50%;
+    background-position: top;
+    text-align: left;
+    height: 456px;
+}
+
+#profile-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0));
+    pointer-events: none;
 }
