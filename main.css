@@ -80,7 +80,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     font-weight: 900;
-    color: #2F4F86;
+    color: #1C2266;
 }
 
 .monospace-semibold {
@@ -88,7 +88,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     font-weight: 700;
-    color: #2F4F86;
+    color: #1C2266;
 }
 
 .monospace-regular {
@@ -96,7 +96,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     font-weight: 300;
-    color: #2F4F86;
+    color: #1C2266;
 }
 
 p.indented {
@@ -111,7 +111,6 @@ p.indented {
     background-size: 100% 50%;
     background-position: top;
     text-align: left;
-    height: 456px;
     background-color: #ffffff;
 }
 
