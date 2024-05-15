@@ -3,8 +3,8 @@ body{
 }
 
 #profile-pic{
-    height: 80%;
-    width: 80%;
+    height: 85%;
+    width: 84%;
     border-radius: 10%;
     margin-left: auto;
     margin-right: auto;
@@ -68,7 +68,7 @@ ul {
 
 .monospace-bold {
     margin: 0;
-    font-family: monospace;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 900;
     color: #b28ecb;
@@ -76,7 +76,7 @@ ul {
 
 .monospace-semibold {
     margin: 0;
-    font-family: monospace;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #b28ecb;
@@ -84,7 +84,7 @@ ul {
 
 .monospace-regular {
     margin: 0;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: #b28ecb;
