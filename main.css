@@ -1,19 +1,11 @@
 body{
-    background-color:#EEEEEE!important;
+    background-color:#161616!important;
 }
 
-/* #profile-pic{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 #profile-pic{
+    height: 85%;
     width: 85%;
-    height: auto;
-    border-radius: 85%;
+    border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,7 +72,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     font-weight: 900;
-    color: #1C2266;
+    color: #835f9d;
 }
 
 .monospace-semibold {
@@ -88,7 +80,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     font-weight: 700;
-    color: #1C2266;
+    color: #835f9d;
 }
 
 .monospace-regular {
@@ -96,7 +88,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     font-weight: 300;
-    color: #1C2266;
+    color: #835f9d;
 }
 
 p.indented {
@@ -111,7 +103,7 @@ p.indented {
     background-size: 100% 50%;
     background-position: top;
     text-align: left;
-    background-color: #ffffff;
+    background-color: #333333;
 }
 
 #profile-wrapper::after {
