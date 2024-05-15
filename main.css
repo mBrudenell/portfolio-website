@@ -1,11 +1,11 @@
 body{
-    background-color:#161616!important;
+    background-color:#0b0b0b!important;
 }
 
 #profile-pic{
-    height: 85%;
-    width: 85%;
-    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    border-radius: 10%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,7 +24,6 @@ body{
 .project-icon:hover {
     transform: translateY(-10px);
 }
-
 
 .project-description {
     margin-left: 10px;
@@ -69,26 +68,26 @@ ul {
 
 .monospace-bold {
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: monospace;
     font-size: 30px;
     font-weight: 900;
-    color: #835f9d;
+    color: #b28ecb;
 }
 
 .monospace-semibold {
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: monospace;
     font-size: 20px;
     font-weight: 700;
-    color: #835f9d;
+    color: #b28ecb;
 }
 
 .monospace-regular {
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
+    font-family: monospace;
     font-size: 12px;
     font-weight: 300;
-    color: #835f9d;
+    color: #b28ecb;
 }
 
 p.indented {
@@ -102,16 +101,23 @@ p.indented {
     background: url('images/cover_pic.jpg') no-repeat;
     background-size: 100% 50%;
     background-position: top;
-    text-align: left;
-    background-color: #333333;
+    text-align: left;    .crop {
+        width: 200px;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    .crop img {
+        width: 400px;
+        height: 300px;
+        margin: -75px 0 0 -100px;
+    }
 }
 
-#profile-wrapper::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    pointer-events: none;
+.card {
+    background-color: #212121 !important;
+}
+
+bg-primary {
+    background-color: #212121 !important;
 }
